@@ -1,4 +1,4 @@
-julien@ubuntu:~/$ cat 11-main.c
+
 #include "main.h"
 
 /**
