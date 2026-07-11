@@ -13,7 +13,6 @@ int main(void)
 	n = 612852475143;
 	max = -1;
 
-	
 	while (n % 2 == 0)
 	{
 		max = 2;
@@ -28,6 +27,7 @@ int main(void)
 			n = n / i;
 		}
 	}
+
 	if (n > 2)
 		max = n;
 
