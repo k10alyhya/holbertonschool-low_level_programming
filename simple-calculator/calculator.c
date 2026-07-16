@@ -85,10 +85,15 @@ else if (n == 4)
 
 	scanf("%lf", &num2);
 	printf("B: %.2f\n", num2);
-
+	if (num2 == 0)
+	{
+		printf(" Error: division by zero");
+	}
+	else {
 	result = num1 / num2;
 
 	printf("Result = %.2f\n", result);
+	}
 }
 	}
 
