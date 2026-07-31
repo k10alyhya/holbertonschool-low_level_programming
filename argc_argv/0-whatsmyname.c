@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ * main - print the file name
+ */
 
 int main(int argc, char *argv[])
 {
